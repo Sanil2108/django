@@ -1,6 +1,9 @@
 <html>
     <form action="/signup/" method="POST">
         {% csrf_token %}
-        {{ form }}
+        <input type=text name="name" value="sanil"><br>
+        <input type=text name="email" value="sanilkhurana7@gmail.com"><br>
+        <input type=password name="password" value="root"><br>
+        <input type="submit">
     </form>
 </html>
