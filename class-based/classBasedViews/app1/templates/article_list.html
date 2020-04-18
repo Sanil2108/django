@@ -1,0 +1,6 @@
+<h2>Articles</h2>
+<ul>
+    {% for article in object_list %}
+        <li>{{ article.title }} by {{ article.author_name }}</li>
+    {% endfor %}
+</ul>
